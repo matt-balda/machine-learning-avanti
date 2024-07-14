@@ -1,0 +1,84 @@
+- 1. Explique, com suas palavras, o que é machine learning?
+
+Machine learning é uma área da inteligência artificial que se 
+concentra no desenvolvimento de algoritmos e modelos estatísticos 
+que permitem aos computadores aprender padrões e tomar decisões com
+base em dados, sem serem explicitamente programados para cada situação. 
+O objetivo é fazer com que os sistemas aprendam automaticamente e melhorem 
+com a experiência, utilizando métodos estatísticos para identificar padrões
+nos dados e fazer previsões ou decisões.
+
+- 2. Explique o conceito de conjunto de treinamento, conjunto de validação e
+conjunto de teste em machine learning.
+
+Conjunto de treinamento: É a parte do conjunto de dados utilizada para treinar 
+o modelo de machine learning. O modelo é ajustado aos dados do conjunto de treinamento
+durante o processo de aprendizado.
+
+Conjunto de validação: É utilizado para ajustar os parâmetros do modelo e avaliar 
+sua performance durante o treinamento. Ele não é usado diretamente para treinar o
+modelo, mas sim para validar as escolhas feitas durante o treinamento.
+
+Conjunto de teste: É usado para avaliar o desempenho final do modelo após o treinamento
+completo. Este conjunto não é usado em nenhuma etapa de treinamento ou ajuste do
+modelo, sendo reservado exclusivamente para avaliação.
+
+- 3. Explique como você lidaria com dados ausentes em um conjunto de dados
+de treinamento.
+
+Lidar com dados ausentes em um conjunto de dados de treinamento é crucial para
+garantir a qualidade e a eficácia do modelo de machine learning. Existem várias 
+abordagens para lidar com dados ausentes:
+
+Remoção de dados ausentes: Uma abordagem simples é remover as instâncias ou características
+que contenham dados ausentes, se isso não comprometer significativamente a representatividade
+do conjunto de dados.
+
+Preenchimento com valores padrão: Substituir os valores ausentes por valores padrão, 
+como a média, mediana ou moda dos dados existentes naquela característica.
+
+Modelagem de imputação: Utilizar técnicas mais avançadas, como modelos preditivos 
+(por exemplo, regressão) para estimar os valores ausentes com base nas relações 
+observadas nos dados.
+
+Ignorar no momento da análise: Em alguns casos, é possível ignorar os dados ausentes 
+durante a análise, dependendo da natureza do problema e da quantidade de dados 
+ausentes.
+
+- 4. O que é uma matriz de confusão e como ela é usada para avaliar o
+desempenho de um modelo preditivo?
+
+Uma matriz de confusão é uma tabela que descreve o desempenho de um modelo de classificação.
+Ela tem dimensões 𝑁 × 𝑁 
+N×N, onde 𝑁
+N é o número de classes no problema de classificação. As células da matriz de confusão 
+são preenchidas com contagens de casos de teste classificados corretamente e incorretamente 
+pelo modelo.
+
+Verdadeiro positivo (TP): Casos em que o modelo previu corretamente a classe positiva.
+Falso positivo (FP): Casos em que o modelo previu incorretamente a classe positiva 
+(quando na verdade era negativa).
+Verdadeiro negativo (TN): Casos em que o modelo previu corretamente a classe negativa.
+Falso negativo (FN): Casos em que o modelo previu incorretamente a classe negativa 
+(quando na verdade era positiva).
+A matriz de confusão permite calcular diversas métricas de desempenho, como precisão, 
+recall, F1-score e taxa de acerto global, que são essenciais para avaliar o quão bem 
+o modelo está performando na tarefa de classificação.
+
+- 5. Em quais áreas (tais como construção civil, agricultura, saúde, manufatura,
+entre outras) você acha mais interessante aplicar algoritmos de machine
+learning?
+
+Algoritmos de machine learning têm aplicação potencial em diversas áreas:
+
+Saúde: Diagnóstico médico, previsão de doenças, análise de imagens médicas.
+Manufatura: Controle de qualidade, previsão de falhas em equipamentos, otimização de
+processos.
+Agricultura: Previsão de colheitas, gestão de recursos hídricos, monitoramento de 
+culturas.
+Construção civil: Análise estrutural, previsão de demanda por materiais, otimização 
+de construções.
+Finanças: Previsão de mercados financeiros, detecção de fraudes, análise de crédito.
+Varejo: Recomendação de produtos, previsão de demanda, segmentação de clientes.
+
+
